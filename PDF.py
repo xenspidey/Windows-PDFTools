@@ -16,6 +16,7 @@ def merge():
 
     def move_down(listbox):
         '''move file down'''
+        print('move down')
 
     def execute(listbox):
         output_file = asksaveasfilename(parent=mergewindow, filetypes=[('PDF Files', '.pdf')])
